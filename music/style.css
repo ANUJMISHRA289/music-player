@@ -1,0 +1,68 @@
+
+  
+  .player-container {
+    width: 800px;
+    background-color:red;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .player-header h2 {
+    text-align: center;
+  }
+  
+  .audio-player {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: greenyellow;
+    background-color: #4CAF50;
+    color: black;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color:blueviolet;
+  }
+  
+  input[type="range"] {
+    width: 100px;
+  }
+  
+  .playlist-container {
+    margin-top: 20px;
+  }
+  
+  #playlist {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #playlist li {
+    padding: 100px;
+    cursor: pointer;
+  }
+  
+  #playlist li:hover {
+    background-color: #ddd;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+body
